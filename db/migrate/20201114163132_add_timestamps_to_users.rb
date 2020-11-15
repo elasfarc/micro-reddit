@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddTimestampsToUsers < ActiveRecord::Migration[5.2]
   def change
     add_column :users, :created_at, :datetime
