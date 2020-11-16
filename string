@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20201114172019_create_posts.rb
+      create    app/models/post.rb
+      invoke    test_unit
+      create      test/models/post_test.rb
+      create      test/fixtures/posts.yml
